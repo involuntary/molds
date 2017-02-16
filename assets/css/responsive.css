@@ -1,0 +1,117 @@
+/*=======================
+	/ Responsive /
+	=====================*/
+
+@media screen and (max-width: 1200px){
+	.plaster-bg,
+	.alginate-bg,
+	.latex-bg,
+	.polyurethan-bg,
+	.silicone-bg,
+	.metal-bg {
+		height: 1128px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.chart-title .left-column{
+	    width: 15%;
+	}
+
+	.mold-chart .section-title h1  {
+	    font-size: 36px;
+	}
+
+	table#chart-table tbody tr td{
+		letter-spacing: 0;
+	}
+
+	.plaster-bg,
+	.alginate-bg,
+	.latex-bg,
+	.polyurethan-bg,
+	.silicone-bg,
+	.metal-bg {
+		height: 1198px;
+	}
+}
+
+
+@media screen and (max-width: 800px){
+	.plaster-bg,
+	.alginate-bg,
+	.latex-bg,
+	.polyurethan-bg,
+	.silicone-bg,
+	.metal-bg {
+		display: none;
+	}
+
+	tbody tr td span{
+		line-height: initial;
+		position: relative;	
+	}
+}
+
+@media screen and (max-width: 767px){
+
+	.chart-wrapper{
+		padding: 0 8px;
+	}
+
+	.mold-chart .section-title a.logo{
+		padding-left: 8px;
+	}
+
+	.mold-chart .section-title h1  {
+	    font-size: 24px;
+	    padding-left: 8px;
+	}
+	.chart-title .left-column{
+		width: 49%;
+	}
+
+	.chart-title .right-column{
+		width: 49%;
+	}
+
+	.st-head-row.st-head-row-main{
+		padding: 7px;
+	}
+
+	.st-head-row{
+		-webkit-border-radius: 15px;
+		        border-radius: 15px;
+		padding: 7px;
+	}
+
+	.product-items{
+	    width: 50%;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	.mold-chart .section-title h2,
+	.mold-chart .section-title h1 {
+	    display: block;
+    	float: none;
+    	margin: 0;
+	}
+
+	.chart-title .left-column h1,
+	.chart-title .right-column h1{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.mold-chart .section-title h1  {
+	    font-size: 18px;
+	}
+
+	.product-items{
+	    width: 100%;
+	    margin: 5px 0;
+	}
+}

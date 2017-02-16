@@ -1,0 +1,474 @@
+/*============================
+    / Custom Fonts /
+    ==========================*/
+
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/BebasNeue.otf')  format('opentype'),
+       url('../fonts/BebasNeue.woff') format('woff'),
+       url('../fonts/BebasNeue.ttf')  format('truetype'),
+       url('../fonts/BebasNeue.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-CondensedBold';
+    src: url('../fonts/OpenSans-CondensedBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-CondensedBold.woff') format('woff'),
+       url('../fonts/OpenSans-CondensedBold.ttf')  format('truetype'),
+       url('../fonts/OpenSans-CondensedBold.svg#OpenSans-CondensedBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Bold.woff') format('woff'),
+       url('../fonts/OpenSans-Bold.ttf')  format('truetype'),
+       url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 992px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.mold-chart .section-title {
+    padding: 16px 0;
+    background: #fff;
+}
+
+
+.mold-chart .section-title a.logo {
+    display: inline-block;
+    margin: 0;
+}
+
+.mold-chart .section-title a.logo img {
+    max-height: 16px;
+}
+
+.mold-chart .section-title h1  {
+    background: #66C8D3;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-family: 'BebasNeue';
+    font-size: 48px;
+    letter-spacing: 6px;
+    line-height: 37px;
+    margin: 0;
+    margin-top: -22px;
+    padding: 12px 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.mold-chart .section-title h1:before {
+    border-bottom: 61px solid #66C8D3;
+    border-left: 35px solid rgba(255,255,255,0);
+    content: '';
+    display: inline-block;
+    left: -34px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+
+/*============================
+    / CHART /
+    ==========================*/
+
+.chart-wrapper {
+    background: #66C8D3;
+    overflow: hidden;
+    padding: 0 5px;
+    position: relative;
+    width: 100%;
+}
+
+.chart-title {
+    padding: 10px 4px 4px;
+}
+
+.chart-title .left-column{
+    background: #4C4C4C;
+    float: left;
+    width: 15.5%;
+}
+
+.chart-title .right-column{
+    background: #4C4C4C;
+    float: right;
+    width: 84%;
+}
+
+.chart-title .left-column h1,
+.chart-title .right-column h1{
+    color: #fff;
+    font-family: 'BebasNeue';
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin: 0;
+    text-align: center;
+
+}
+
+/*============================
+    / Table /
+    ==========================*/
+
+.white-hr{
+    background: #FFF;
+    border: none;
+    height: 10px;
+    margin: 0;
+}
+
+table{
+    background: #e8ecf3;
+    -webkit-border-radius: 12px;
+            border-radius: 12px;
+    border-spacing: 4px 4px;
+    border-color: #e8ecf3;
+    padding: 4px 0 15px 0;
+    margin: 5px 0;
+}
+
+table#chart-table{
+    background: none;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+     margin-bottom: -4px;
+    padding: 0;
+}
+
+table#table-1,
+table#table-2,
+table#table-3,
+table#table-4,
+table#table-5{
+    border-spacing: 4px;
+    margin: 15px 0;
+}
+
+table#table-5{
+    -webkit-border-radius: 12px 12px 0 12px;
+            border-radius: 12px 12px 0 12px;
+}
+
+table#table-1 thead,
+table#table-2 thead,
+table#table-3 thead,
+table#table-4 thead,
+table#table-5 thead{
+    display: none;
+}
+
+tbody{
+    background:#e8ecf3;
+    border-spacing: 4px;
+}
+
+table#chart-table tbody tr td{
+    font-family: 'BebasNeue';
+    font-size: 19px;
+    letter-spacing: 3px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+thead tr th:nth-child(1){
+    width: 16%;
+}
+thead tr th:nth-child(2){
+    width: 14%;
+}
+thead tr th:nth-child(3){
+    width: 14%;
+}
+thead tr th:nth-child(4){
+    width: 14%;
+}
+thead tr th:nth-child(5){
+    width: 14%;
+}
+thead tr th:nth-child(6){
+    width: 14%;
+}
+thead tr th:nth-child(7){
+    width: 14%;
+}
+
+
+table#chart-table tbody tr td.material {
+    background: #fff;
+    -webkit-border-radius: 0px 0px 12px 12px;
+            border-radius: 0px 0px 12px 12px;
+    color: #333;
+    padding: 10px 0;
+    position: relative;
+}
+
+
+table#table-1 thead tr th.material,
+table#table-2 thead tr th.material,
+table#table-3 thead tr th.material,
+table#table-4 thead tr th.material,
+table#table-5 thead tr th.material{
+    padding: 0;
+}
+
+table#chart-table tbody tr td{
+    -webkit-border-radius: 12px 12px 0 0;
+            border-radius: 12px 12px 0 0;
+    color: #fff;
+}
+
+table#chart-table tbody tr td.plaster{
+    background: #FD6D4C;
+}
+
+table#chart-table tbody tr td.alginate{
+    background: #FFC000;
+}
+
+table#chart-table tbody tr td.latex{
+    background: #52D201;
+}
+
+table#chart-table tbody tr td.polyuretdan{
+    background: #00BFFE;
+}
+
+table#chart-table tbody tr td.silicone{
+    background: #c1272d;
+}
+
+table#chart-table tbody tr td.metal{
+    background: #93268F;
+}
+
+tbody tr td:nth-child(1){
+    width: 16%;
+}
+tbody tr td:nth-child(2){
+    width: 14%;
+}
+tbody tr td:nth-child(3){
+    width: 14%;
+}
+tbody tr td:nth-child(4){
+    width: 14%;
+}
+tbody tr td:nth-child(5){
+    width: 14%;
+}
+tbody tr td:nth-child(6){
+    width: 14%;
+}
+tbody tr td:nth-child(7){
+    width: 14%;
+}
+
+
+tbody tr td{
+    background: #fff;
+    font-family: 'OpenSans-Bold';
+    font-size: 10px;
+    margin: 5px 0;
+    opacity: 0.8;
+    padding: 10px 5px;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+
+tbody tr td span{
+    background: #fff;
+    display: block;
+    height: 100%;
+    left: 0;
+    line-height: 38px;
+    opacity: 0.8;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 15;
+}
+
+tbody tr td:first-child{
+    -webkit-border-radius: 15px 0 0 15px;
+            border-radius: 15px 0 0 15px;
+    font-family: 'OpenSans-CondensedBold';
+    font-size: 13px;
+    text-align: left;
+}
+
+tbody tr td:last-child{
+    -webkit-border-radius: 0 15px 15px 0;
+            border-radius: 0 15px 15px 0;
+}
+
+tbody tr td:last-child span{
+    -webkit-border-radius: 0 15px 15px 0;
+            border-radius: 0 15px 15px 0;
+}
+
+tbody tr td.sub{
+    background: rgba(255,255,255,0);
+    -webkit-border-radius: 0;
+            border-radius: 0;
+    font-family: 'BebasNeue';
+    font-size: 19px;
+    padding: 15px 0 10px 10px;
+}
+
+tbody tr td:first-child:before{
+    content: '\f111';
+    font-family: 'FontAwesome';
+    font-size: 6px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+table#chart-table tbody tr td:first-child:before{
+    content: none;
+}
+
+tbody tr td.sub:before{
+    content: none;
+}
+
+.plaster-bg,
+.alginate-bg,
+.latex-bg,
+.polyurethan-bg,
+.silicone-bg,
+.metal-bg {
+    height: 1108px;
+    left: 0;
+    position: absolute;
+    top: -79px;
+    width: 100%;
+    z-index: 7;
+}
+
+.plaster-bg{
+    background: #FD6D4C;
+}
+
+.alginate-bg {
+    background: #ffc000;
+}
+
+.latex-bg {
+    background: #52d201;
+}
+
+.polyurethan-bg {
+    background: #00bffe;
+}
+
+.silicone-bg {
+    background: #c1272d;
+}
+
+.metal-bg {
+    background: #93268f;
+}
+
+/*============================
+    / Products /
+    ==========================*/
+
+
+.products-wrapper{
+    background: #fff;
+    overflow: hidden;
+    padding: 26px 0;
+}
+
+.product-items{
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 16.66%;
+}
+
+.circle{
+    -webkit-align-items: center;
+            align-items: center;
+    border: 2px solid;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 83px;
+    -webkit-justify-content: center;
+            justify-content: center;
+    overflow: hidden;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    width: 83px;
+}
+
+
+.circle img{
+    max-width: 100%;
+}
+.border-bg-1{
+    border-color: #009245;
+}
+
+.border-bg-2 {
+    border-color: #29abe2;
+}
+
+.border-bg-3 {
+    border-color: #00FF00;
+}
+
+.border-bg-4 {
+    border-color: #C69C6D;
+}
+
+.border-bg-5 {
+    border-color: #F15A24;
+}
+
+.border-bg-6 {
+    border-color: #FF00FF;
+}
+
+.product-items h3{
+    margin: 0;
+    font-family: 'OpenSans-Bold';
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.chart-wrapper table:frist-child(1){
+    display: none;
+}
